@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T17:05:05+00:00",
+ "generated_at": "2026-08-29T17:15:05+00:00",
  "model_version": "skill-mc-v0.3",
  "gate_passed": true,
  "placement_gate_passed": true,
@@ -26,91 +26,43 @@
    "expected_finish": 5.4,
    "median_finish": 4,
    "finish_p25": 2,
-   "finish_p75": 7,
+   "finish_p75": 8,
    "p_complete": 1.0,
-   "p_win": 0.2074,
+   "p_win": 0.2077,
    "ladder": {
-    "1": 0.2233,
-    "5": 0.6872,
-    "10": 0.8776,
-    "20": 0.9868,
+    "1": 0.2236,
+    "5": 0.6861,
+    "10": 0.8767,
+    "20": 0.9865,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-SSCH",
-     "model_probability": 0.6872,
+     "model_probability": 0.6861,
      "yes_bid": 68.0,
      "yes_ask": 70.0,
-     "ev_yes": -0.0328,
-     "ev_no": -0.0272
+     "ev_yes": -0.0339,
+     "ev_no": -0.0261
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-SSCH",
-     "model_probability": 0.8776,
+     "model_probability": 0.8767,
      "yes_bid": 87.0,
      "yes_ask": 88.0,
-     "ev_yes": -0.0124,
-     "ev_no": -0.0176
+     "ev_yes": -0.0133,
+     "ev_no": -0.0167
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-SSCH",
-     "model_probability": 0.9868,
+     "model_probability": 0.9865,
      "yes_bid": 96.0,
      "yes_ask": 99.0,
-     "ev_yes": -0.0132,
-     "ev_no": -0.0368
-    }
-   ],
-   "low_sample": false
-  },
-  {
-   "player": "Viktor Hovland",
-   "player_id": "espn:4364873",
-   "tier": "top_5",
-   "expected_finish": 7.1,
-   "median_finish": 5,
-   "finish_p25": 3,
-   "finish_p75": 10,
-   "p_complete": 1.0,
-   "p_win": 0.1176,
-   "ladder": {
-    "1": 0.1235,
-    "5": 0.5424,
-    "10": 0.7887,
-    "20": 0.9715,
-    "30": 1.0
-   },
-   "markets": [
-    {
-     "threshold": 5,
-     "market_ticker": "KXPGATOP5-TOC26-VHOV",
-     "model_probability": 0.5424,
-     "yes_bid": 61.0,
-     "yes_ask": 62.0,
-     "ev_yes": -0.0976,
-     "ev_no": 0.0476
-    },
-    {
-     "threshold": 10,
-     "market_ticker": "KXPGATOP10-TOC26-VHOV",
-     "model_probability": 0.7887,
-     "yes_bid": 82.0,
-     "yes_ask": 85.0,
-     "ev_yes": -0.0713,
-     "ev_no": 0.0113
-    },
-    {
-     "threshold": 20,
-     "market_ticker": "KXPGATOP20-TOC26-VHOV",
-     "model_probability": 0.9715,
-     "yes_bid": 95.0,
-     "yes_ask": 97.0,
-     "ev_yes": -0.0085,
-     "ev_no": -0.0315
+     "ev_yes": -0.0135,
+     "ev_no": -0.0365
     }
    ],
    "low_sample": false
@@ -124,41 +76,89 @@
    "finish_p25": 3,
    "finish_p75": 10,
    "p_complete": 1.0,
-   "p_win": 0.115,
+   "p_win": 0.1152,
    "ladder": {
-    "1": 0.1229,
-    "5": 0.5407,
-    "10": 0.7863,
-    "20": 0.9709,
+    "1": 0.123,
+    "5": 0.5385,
+    "10": 0.784,
+    "20": 0.9702,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-RGER",
-     "model_probability": 0.5407,
+     "model_probability": 0.5385,
      "yes_bid": 53.0,
      "yes_ask": 56.0,
-     "ev_yes": -0.0393,
-     "ev_no": -0.0307
+     "ev_yes": -0.0415,
+     "ev_no": -0.0285
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-RGER",
-     "model_probability": 0.7863,
+     "model_probability": 0.784,
      "yes_bid": 78.0,
      "yes_ask": 80.0,
-     "ev_yes": -0.0337,
-     "ev_no": -0.0263
+     "ev_yes": -0.036,
+     "ev_no": -0.024
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-RGER",
-     "model_probability": 0.9709,
+     "model_probability": 0.9702,
      "yes_bid": 97.0,
      "yes_ask": 98.0,
-     "ev_yes": -0.0191,
-     "ev_no": -0.0109
+     "ev_yes": -0.0198,
+     "ev_no": -0.0102
+    }
+   ],
+   "low_sample": false
+  },
+  {
+   "player": "Viktor Hovland",
+   "player_id": "espn:4364873",
+   "tier": "top_10",
+   "expected_finish": 7.2,
+   "median_finish": 6,
+   "finish_p25": 3,
+   "finish_p75": 10,
+   "p_complete": 1.0,
+   "p_win": 0.1172,
+   "ladder": {
+    "1": 0.1234,
+    "5": 0.5401,
+    "10": 0.7872,
+    "20": 0.9703,
+    "30": 1.0
+   },
+   "markets": [
+    {
+     "threshold": 5,
+     "market_ticker": "KXPGATOP5-TOC26-VHOV",
+     "model_probability": 0.5401,
+     "yes_bid": 61.0,
+     "yes_ask": 62.0,
+     "ev_yes": -0.0999,
+     "ev_no": 0.0499
+    },
+    {
+     "threshold": 10,
+     "market_ticker": "KXPGATOP10-TOC26-VHOV",
+     "model_probability": 0.7872,
+     "yes_bid": 82.0,
+     "yes_ask": 85.0,
+     "ev_yes": -0.0728,
+     "ev_no": 0.0128
+    },
+    {
+     "threshold": 20,
+     "market_ticker": "KXPGATOP20-TOC26-VHOV",
+     "model_probability": 0.9703,
+     "yes_bid": 95.0,
+     "yes_ask": 97.0,
+     "ev_yes": -0.0097,
+     "ev_no": -0.0303
     }
    ],
    "low_sample": false
@@ -172,41 +172,41 @@
    "finish_p25": 3,
    "finish_p75": 11,
    "p_complete": 1.0,
-   "p_win": 0.1062,
+   "p_win": 0.1054,
    "ladder": {
-    "1": 0.113,
-    "5": 0.5155,
-    "10": 0.7652,
-    "20": 0.9646,
+    "1": 0.1126,
+    "5": 0.5134,
+    "10": 0.7638,
+    "20": 0.9641,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-CMOR",
-     "model_probability": 0.5155,
+     "model_probability": 0.5134,
      "yes_bid": 53.0,
      "yes_ask": 54.0,
-     "ev_yes": -0.0445,
-     "ev_no": -0.0055
+     "ev_yes": -0.0466,
+     "ev_no": -0.0034
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-CMOR",
-     "model_probability": 0.7652,
+     "model_probability": 0.7638,
      "yes_bid": 79.0,
      "yes_ask": 81.0,
-     "ev_yes": -0.0648,
-     "ev_no": 0.0048
+     "ev_yes": -0.0662,
+     "ev_no": 0.0062
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-CMOR",
-     "model_probability": 0.9646,
+     "model_probability": 0.9641,
      "yes_bid": 94.0,
      "yes_ask": 95.0,
-     "ev_yes": 0.0046,
-     "ev_no": -0.0346
+     "ev_yes": 0.0041,
+     "ev_no": -0.0341
     }
    ],
    "low_sample": false
@@ -220,41 +220,41 @@
    "finish_p25": 3,
    "finish_p75": 11,
    "p_complete": 1.0,
-   "p_win": 0.0903,
+   "p_win": 0.0895,
    "ladder": {
-    "1": 0.0966,
-    "5": 0.4879,
-    "10": 0.7502,
-    "20": 0.9619,
+    "1": 0.096,
+    "5": 0.4866,
+    "10": 0.7458,
+    "20": 0.9612,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-CGOT",
-     "model_probability": 0.4879,
+     "model_probability": 0.4866,
      "yes_bid": 50.0,
      "yes_ask": 53.0,
-     "ev_yes": -0.0621,
-     "ev_no": -0.0079
+     "ev_yes": -0.0634,
+     "ev_no": -0.0066
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-CGOT",
-     "model_probability": 0.7502,
+     "model_probability": 0.7458,
      "yes_bid": 76.0,
      "yes_ask": 77.0,
-     "ev_yes": -0.0398,
-     "ev_no": -0.0102
+     "ev_yes": -0.0442,
+     "ev_no": -0.0058
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-CGOT",
-     "model_probability": 0.9619,
+     "model_probability": 0.9612,
      "yes_bid": 94.0,
      "yes_ask": 95.0,
-     "ev_yes": 0.0019,
-     "ev_no": -0.0319
+     "ev_yes": 0.0012,
+     "ev_no": -0.0312
     }
    ],
    "low_sample": false
@@ -268,41 +268,41 @@
    "finish_p25": 4,
    "finish_p75": 14,
    "p_complete": 1.0,
-   "p_win": 0.0534,
+   "p_win": 0.0529,
    "ladder": {
-    "1": 0.0578,
-    "5": 0.3661,
-    "10": 0.6368,
-    "20": 0.9286,
+    "1": 0.058,
+    "5": 0.3649,
+    "10": 0.6345,
+    "20": 0.9271,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-CAME",
-     "model_probability": 0.3661,
+     "model_probability": 0.3649,
      "yes_bid": 42.0,
      "yes_ask": 44.0,
-     "ev_yes": -0.0939,
-     "ev_no": 0.0339
+     "ev_yes": -0.0951,
+     "ev_no": 0.0351
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-CAME",
-     "model_probability": 0.6368,
+     "model_probability": 0.6345,
      "yes_bid": 68.0,
      "yes_ask": 70.0,
-     "ev_yes": -0.0832,
-     "ev_no": 0.0232
+     "ev_yes": -0.0855,
+     "ev_no": 0.0255
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-CAME",
-     "model_probability": 0.9286,
+     "model_probability": 0.9271,
      "yes_bid": 91.0,
      "yes_ask": 94.0,
-     "ev_yes": -0.0214,
-     "ev_no": -0.0286
+     "ev_yes": -0.0229,
+     "ev_no": -0.0271
     }
    ],
    "low_sample": false
@@ -316,41 +316,41 @@
    "finish_p25": 5,
    "finish_p75": 15,
    "p_complete": 1.0,
-   "p_win": 0.0477,
+   "p_win": 0.0476,
    "ladder": {
-    "1": 0.0511,
-    "5": 0.3439,
-    "10": 0.615,
-    "20": 0.9189,
+    "1": 0.051,
+    "5": 0.3428,
+    "10": 0.6112,
+    "20": 0.9171,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-MFIT",
-     "model_probability": 0.3439,
+     "model_probability": 0.3428,
      "yes_bid": 28.0,
      "yes_ask": 30.0,
-     "ev_yes": 0.0239,
-     "ev_no": -0.0839
+     "ev_yes": 0.0228,
+     "ev_no": -0.0828
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-MFIT",
-     "model_probability": 0.615,
+     "model_probability": 0.6112,
      "yes_bid": 56.0,
-     "yes_ask": 59.0,
-     "ev_yes": 0.005,
-     "ev_no": -0.075
+     "yes_ask": 58.0,
+     "ev_yes": 0.0112,
+     "ev_no": -0.0712
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-MFIT",
-     "model_probability": 0.9189,
+     "model_probability": 0.9171,
      "yes_bid": 82.0,
      "yes_ask": 92.0,
-     "ev_yes": -0.0111,
-     "ev_no": -0.1189
+     "ev_yes": -0.0129,
+     "ev_no": -0.1171
     }
    ],
    "low_sample": false
@@ -359,46 +359,46 @@
    "player": "Ludvig \u00c5berg",
    "player_id": "espn:4375972",
    "tier": "top_10",
-   "expected_finish": 10.7,
-   "median_finish": 9,
+   "expected_finish": 10.8,
+   "median_finish": 10,
    "finish_p25": 5,
-   "finish_p75": 15,
+   "finish_p75": 16,
    "p_complete": 1.0,
-   "p_win": 0.041,
+   "p_win": 0.0407,
    "ladder": {
-    "1": 0.043,
-    "5": 0.3104,
-    "10": 0.5748,
-    "20": 0.9049,
+    "1": 0.0427,
+    "5": 0.3085,
+    "10": 0.572,
+    "20": 0.9028,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-LABE",
-     "model_probability": 0.3104,
+     "model_probability": 0.3085,
      "yes_bid": 33.0,
      "yes_ask": 34.0,
-     "ev_yes": -0.0496,
-     "ev_no": -0.0004
+     "ev_yes": -0.0515,
+     "ev_no": 0.0015
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-LABE",
-     "model_probability": 0.5748,
+     "model_probability": 0.572,
      "yes_bid": 61.0,
      "yes_ask": 62.0,
-     "ev_yes": -0.0652,
-     "ev_no": 0.0152
+     "ev_yes": -0.068,
+     "ev_no": 0.018
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-LABE",
-     "model_probability": 0.9049,
+     "model_probability": 0.9028,
      "yes_bid": 87.0,
      "yes_ask": 92.0,
-     "ev_yes": -0.0251,
-     "ev_no": -0.0449
+     "ev_yes": -0.0272,
+     "ev_no": -0.0428
     }
    ],
    "low_sample": false
@@ -412,41 +412,41 @@
    "finish_p25": 6,
    "finish_p75": 17,
    "p_complete": 1.0,
-   "p_win": 0.0327,
+   "p_win": 0.0329,
    "ladder": {
     "1": 0.0341,
-    "5": 0.2587,
-    "10": 0.5194,
-    "20": 0.8772,
+    "5": 0.2588,
+    "10": 0.5155,
+    "20": 0.8758,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-SBUR",
-     "model_probability": 0.2587,
+     "model_probability": 0.2588,
      "yes_bid": 24.0,
      "yes_ask": 25.0,
-     "ev_yes": -0.0113,
-     "ev_no": -0.0387
+     "ev_yes": -0.0112,
+     "ev_no": -0.0388
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-SBUR",
-     "model_probability": 0.5194,
+     "model_probability": 0.5155,
      "yes_bid": 45.0,
      "yes_ask": 52.0,
-     "ev_yes": -0.0206,
-     "ev_no": -0.0894
+     "ev_yes": -0.0245,
+     "ev_no": -0.0855
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-SBUR",
-     "model_probability": 0.8772,
-     "yes_bid": 79.0,
+     "model_probability": 0.8758,
+     "yes_bid": 78.0,
      "yes_ask": 86.0,
-     "ev_yes": 0.0072,
-     "ev_no": -0.1072
+     "ev_yes": 0.0058,
+     "ev_no": -0.1158
     }
    ],
    "low_sample": false
@@ -460,41 +460,41 @@
    "finish_p25": 7,
    "finish_p75": 18,
    "p_complete": 1.0,
-   "p_win": 0.0228,
+   "p_win": 0.0226,
    "ladder": {
-    "1": 0.024,
-    "5": 0.2114,
-    "10": 0.4553,
-    "20": 0.849,
+    "1": 0.0242,
+    "5": 0.2108,
+    "10": 0.4532,
+    "20": 0.8463,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-JROS",
-     "model_probability": 0.2114,
+     "model_probability": 0.2108,
      "yes_bid": 21.0,
      "yes_ask": 22.0,
-     "ev_yes": -0.0286,
-     "ev_no": -0.0214
+     "ev_yes": -0.0292,
+     "ev_no": -0.0208
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-JROS",
-     "model_probability": 0.4553,
+     "model_probability": 0.4532,
      "yes_bid": 46.0,
      "yes_ask": 47.0,
-     "ev_yes": -0.0347,
-     "ev_no": -0.0153
+     "ev_yes": -0.0368,
+     "ev_no": -0.0132
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-JROS",
-     "model_probability": 0.849,
+     "model_probability": 0.8463,
      "yes_bid": 77.0,
-     "yes_ask": 85.0,
-     "ev_yes": -0.011,
-     "ev_no": -0.099
+     "yes_ask": 86.0,
+     "ev_yes": -0.0237,
+     "ev_no": -0.0963
     }
    ],
    "low_sample": false
@@ -508,41 +508,41 @@
    "finish_p25": 7,
    "finish_p75": 18,
    "p_complete": 1.0,
-   "p_win": 0.024,
+   "p_win": 0.0244,
    "ladder": {
-    "1": 0.0249,
-    "5": 0.2144,
-    "10": 0.4621,
-    "20": 0.8434,
+    "1": 0.0253,
+    "5": 0.2148,
+    "10": 0.4589,
+    "20": 0.8395,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-ASCO",
-     "model_probability": 0.2144,
-     "yes_bid": 20.0,
+     "model_probability": 0.2148,
+     "yes_bid": 21.0,
      "yes_ask": 22.0,
-     "ev_yes": -0.0256,
-     "ev_no": -0.0344
+     "ev_yes": -0.0252,
+     "ev_no": -0.0248
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-ASCO",
-     "model_probability": 0.4621,
+     "model_probability": 0.4589,
      "yes_bid": 47.0,
      "yes_ask": 49.0,
-     "ev_yes": -0.0479,
-     "ev_no": -0.0121
+     "ev_yes": -0.0511,
+     "ev_no": -0.0089
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-ASCO",
-     "model_probability": 0.8434,
+     "model_probability": 0.8395,
      "yes_bid": 79.0,
      "yes_ask": 85.0,
-     "ev_yes": -0.0166,
-     "ev_no": -0.0734
+     "ev_yes": -0.0205,
+     "ev_no": -0.0695
     }
    ],
    "low_sample": false
@@ -556,41 +556,41 @@
    "finish_p25": 8,
    "finish_p75": 20,
    "p_complete": 1.0,
-   "p_win": 0.0154,
+   "p_win": 0.0132,
    "ladder": {
-    "1": 0.0159,
-    "5": 0.1537,
-    "10": 0.3591,
-    "20": 0.7771,
+    "1": 0.0139,
+    "5": 0.1489,
+    "10": 0.3579,
+    "20": 0.7826,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-RHEN",
-     "model_probability": 0.1537,
-     "yes_bid": 11.0,
+     "model_probability": 0.1489,
+     "yes_bid": 10.0,
      "yes_ask": 16.0,
-     "ev_yes": -0.0163,
-     "ev_no": -0.0537
+     "ev_yes": -0.0211,
+     "ev_no": -0.0589
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-RHEN",
-     "model_probability": 0.3591,
+     "model_probability": 0.3579,
      "yes_bid": 32.0,
-     "yes_ask": 39.0,
-     "ev_yes": -0.0509,
-     "ev_no": -0.0591
+     "yes_ask": 41.0,
+     "ev_yes": -0.0721,
+     "ev_no": -0.0579
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-RHEN",
-     "model_probability": 0.7771,
+     "model_probability": 0.7826,
      "yes_bid": 80.0,
      "yes_ask": 84.0,
-     "ev_yes": -0.0729,
-     "ev_no": 0.0029
+     "ev_yes": -0.0674,
+     "ev_no": -0.0026
     }
    ],
    "low_sample": false
@@ -599,46 +599,46 @@
    "player": "Gary Woodland",
    "player_id": "espn:3550",
    "tier": "top_20",
-   "expected_finish": 15.3,
+   "expected_finish": 15.4,
    "median_finish": 15,
    "finish_p25": 9,
    "finish_p75": 21,
    "p_complete": 1.0,
-   "p_win": 0.0092,
+   "p_win": 0.0089,
    "ladder": {
     "1": 0.0097,
-    "5": 0.1235,
-    "10": 0.3175,
-    "20": 0.7392,
+    "5": 0.1217,
+    "10": 0.3151,
+    "20": 0.7359,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-GWOO",
-     "model_probability": 0.1235,
+     "model_probability": 0.1217,
      "yes_bid": 13.0,
      "yes_ask": 19.0,
-     "ev_yes": -0.0865,
-     "ev_no": -0.0035
+     "ev_yes": -0.0883,
+     "ev_no": -0.0017
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-GWOO",
-     "model_probability": 0.3175,
+     "model_probability": 0.3151,
      "yes_bid": 36.0,
      "yes_ask": 41.0,
-     "ev_yes": -0.1125,
-     "ev_no": 0.0225
+     "ev_yes": -0.1149,
+     "ev_no": 0.0249
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-GWOO",
-     "model_probability": 0.7392,
+     "model_probability": 0.7359,
      "yes_bid": 74.0,
      "yes_ask": 79.0,
-     "ev_yes": -0.0708,
-     "ev_no": -0.0192
+     "ev_yes": -0.0741,
+     "ev_no": -0.0159
     }
    ],
    "low_sample": false
@@ -647,46 +647,46 @@
    "player": "Tom Kim",
    "player_id": "espn:4602673",
    "tier": "top_20",
-   "expected_finish": 15.3,
+   "expected_finish": 15.5,
    "median_finish": 15,
    "finish_p25": 9,
-   "finish_p75": 21,
+   "finish_p75": 22,
    "p_complete": 1.0,
-   "p_win": 0.0094,
+   "p_win": 0.0106,
    "ladder": {
-    "1": 0.0095,
-    "5": 0.1162,
-    "10": 0.308,
-    "20": 0.744,
+    "1": 0.0111,
+    "5": 0.1178,
+    "10": 0.3082,
+    "20": 0.7293,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-TKIM",
-     "model_probability": 0.1162,
-     "yes_bid": 5.0,
-     "yes_ask": 12.0,
-     "ev_yes": -0.0138,
-     "ev_no": -0.0762
+     "model_probability": 0.1178,
+     "yes_bid": 1.0,
+     "yes_ask": 30.0,
+     "ev_yes": -0.2022,
+     "ev_no": -0.1178
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-TKIM",
-     "model_probability": 0.308,
-     "yes_bid": 27.0,
-     "yes_ask": 33.0,
-     "ev_yes": -0.042,
-     "ev_no": -0.058
+     "model_probability": 0.3082,
+     "yes_bid": 25.0,
+     "yes_ask": 31.0,
+     "ev_yes": -0.0218,
+     "ev_no": -0.0782
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-TKIM",
-     "model_probability": 0.744,
-     "yes_bid": 71.0,
-     "yes_ask": 75.0,
-     "ev_yes": -0.026,
-     "ev_no": -0.054
+     "model_probability": 0.7293,
+     "yes_bid": 68.0,
+     "yes_ask": 79.0,
+     "ev_yes": -0.0807,
+     "ev_no": -0.0693
     }
    ],
    "low_sample": false
@@ -695,46 +695,94 @@
    "player": "Akshay Bhatia",
    "player_id": "espn:4419142",
    "tier": "top_20",
-   "expected_finish": 15.6,
+   "expected_finish": 15.7,
    "median_finish": 16,
    "finish_p25": 10,
    "finish_p75": 22,
    "p_complete": 1.0,
    "p_win": 0.0095,
    "ladder": {
-    "1": 0.0098,
-    "5": 0.1143,
-    "10": 0.3002,
-    "20": 0.7213,
+    "1": 0.0099,
+    "5": 0.1136,
+    "10": 0.2972,
+    "20": 0.7183,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-ABHA",
-     "model_probability": 0.1143,
+     "model_probability": 0.1136,
      "yes_bid": 10.0,
      "yes_ask": 14.0,
-     "ev_yes": -0.0357,
-     "ev_no": -0.0243
+     "ev_yes": -0.0364,
+     "ev_no": -0.0236
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-ABHA",
-     "model_probability": 0.3002,
-     "yes_bid": 28.0,
+     "model_probability": 0.2972,
+     "yes_bid": 32.0,
      "yes_ask": 33.0,
-     "ev_yes": -0.0498,
-     "ev_no": -0.0402
+     "ev_yes": -0.0528,
+     "ev_no": 0.0028
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-ABHA",
-     "model_probability": 0.7213,
+     "model_probability": 0.7183,
      "yes_bid": 72.0,
      "yes_ask": 74.0,
-     "ev_yes": -0.0387,
-     "ev_no": -0.0213
+     "ev_yes": -0.0417,
+     "ev_no": -0.0183
+    }
+   ],
+   "low_sample": false
+  },
+  {
+   "player": "Patrick Cantlay",
+   "player_id": "espn:6007",
+   "tier": "top_20",
+   "expected_finish": 15.7,
+   "median_finish": 16,
+   "finish_p25": 10,
+   "finish_p75": 22,
+   "p_complete": 1.0,
+   "p_win": 0.0105,
+   "ladder": {
+    "1": 0.0109,
+    "5": 0.112,
+    "10": 0.3016,
+    "20": 0.7178,
+    "30": 1.0
+   },
+   "markets": [
+    {
+     "threshold": 5,
+     "market_ticker": "KXPGATOP5-TOC26-PCAN",
+     "model_probability": 0.112,
+     "yes_bid": 2.0,
+     "yes_ask": 13.0,
+     "ev_yes": -0.028,
+     "ev_no": -0.102
+    },
+    {
+     "threshold": 10,
+     "market_ticker": "KXPGATOP10-TOC26-PCAN",
+     "model_probability": 0.3016,
+     "yes_bid": 20.0,
+     "yes_ask": 32.0,
+     "ev_yes": -0.0384,
+     "ev_no": -0.1216
+    },
+    {
+     "threshold": 20,
+     "market_ticker": "KXPGATOP20-TOC26-PCAN",
+     "model_probability": 0.7178,
+     "yes_bid": 64.0,
+     "yes_ask": 76.0,
+     "ev_yes": -0.0622,
+     "ev_no": -0.0978
     }
    ],
    "low_sample": false
@@ -743,16 +791,16 @@
    "player": "Tommy Fleetwood",
    "player_id": "espn:5539",
    "tier": "top_20",
-   "expected_finish": 15.6,
+   "expected_finish": 15.7,
    "median_finish": 16,
    "finish_p25": 10,
    "finish_p75": 22,
    "p_complete": 1.0,
-   "p_win": 0.0104,
+   "p_win": 0.0094,
    "ladder": {
-    "1": 0.0108,
-    "5": 0.1117,
-    "10": 0.3009,
+    "1": 0.0097,
+    "5": 0.1118,
+    "10": 0.2927,
     "20": 0.7211,
     "30": 1.0
    },
@@ -760,29 +808,29 @@
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-TFLE",
-     "model_probability": 0.1117,
+     "model_probability": 0.1118,
      "yes_bid": 7.0,
-     "yes_ask": 29.0,
-     "ev_yes": -0.1983,
-     "ev_no": -0.0517
+     "yes_ask": 14.0,
+     "ev_yes": -0.0382,
+     "ev_no": -0.0518
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-TFLE",
-     "model_probability": 0.3009,
-     "yes_bid": 24.0,
-     "yes_ask": 33.0,
-     "ev_yes": -0.0491,
-     "ev_no": -0.0809
+     "model_probability": 0.2927,
+     "yes_bid": 25.0,
+     "yes_ask": 37.0,
+     "ev_yes": -0.0973,
+     "ev_no": -0.0627
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-TFLE",
      "model_probability": 0.7211,
-     "yes_bid": 69.0,
-     "yes_ask": 78.0,
-     "ev_yes": -0.0789,
-     "ev_no": -0.0511
+     "yes_bid": 70.0,
+     "yes_ask": 81.0,
+     "ev_yes": -0.1089,
+     "ev_no": -0.0411
     }
    ],
    "low_sample": false
@@ -791,46 +839,46 @@
    "player": "Ryan Fox",
    "player_id": "espn:4251",
    "tier": "top_20",
-   "expected_finish": 15.9,
+   "expected_finish": 16.0,
    "median_finish": 16,
    "finish_p25": 10,
    "finish_p75": 22,
    "p_complete": 1.0,
    "p_win": 0.0086,
    "ladder": {
-    "1": 0.0085,
-    "5": 0.1025,
-    "10": 0.2843,
-    "20": 0.7165,
+    "1": 0.0086,
+    "5": 0.1019,
+    "10": 0.2818,
+    "20": 0.7129,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-RFOX",
-     "model_probability": 0.1025,
-     "yes_bid": 7.0,
+     "model_probability": 0.1019,
+     "yes_bid": 10.0,
      "yes_ask": 12.0,
-     "ev_yes": -0.0275,
-     "ev_no": -0.0425
+     "ev_yes": -0.0281,
+     "ev_no": -0.0119
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-RFOX",
-     "model_probability": 0.2843,
+     "model_probability": 0.2818,
      "yes_bid": 22.0,
-     "yes_ask": 28.0,
-     "ev_yes": -0.0157,
-     "ev_no": -0.0843
+     "yes_ask": 29.0,
+     "ev_yes": -0.0282,
+     "ev_no": -0.0818
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-RFOX",
-     "model_probability": 0.7165,
-     "yes_bid": 69.0,
+     "model_probability": 0.7129,
+     "yes_bid": 70.0,
      "yes_ask": 72.0,
-     "ev_yes": -0.0235,
-     "ev_no": -0.0465
+     "ev_yes": -0.0271,
+     "ev_no": -0.0329
     }
    ],
    "low_sample": false
@@ -839,46 +887,46 @@
    "player": "Jacob Bridgeman",
    "player_id": "espn:5054388",
    "tier": "top_20",
-   "expected_finish": 15.9,
+   "expected_finish": 16.0,
    "median_finish": 16,
    "finish_p25": 10,
    "finish_p75": 22,
    "p_complete": 1.0,
-   "p_win": 0.0081,
+   "p_win": 0.0076,
    "ladder": {
-    "1": 0.0082,
-    "5": 0.1009,
-    "10": 0.2794,
-    "20": 0.7119,
+    "1": 0.0076,
+    "5": 0.0982,
+    "10": 0.2737,
+    "20": 0.7083,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-JBRI",
-     "model_probability": 0.1009,
+     "model_probability": 0.0982,
      "yes_bid": 6.0,
      "yes_ask": 9.0,
-     "ev_yes": 0.0009,
-     "ev_no": -0.0509
+     "ev_yes": -0.0018,
+     "ev_no": -0.0482
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-JBRI",
-     "model_probability": 0.2794,
+     "model_probability": 0.2737,
      "yes_bid": 21.0,
      "yes_ask": 27.0,
-     "ev_yes": -0.0106,
-     "ev_no": -0.0894
+     "ev_yes": -0.0163,
+     "ev_no": -0.0837
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-JBRI",
-     "model_probability": 0.7119,
+     "model_probability": 0.7083,
      "yes_bid": 66.0,
      "yes_ask": 69.0,
-     "ev_yes": 0.0019,
-     "ev_no": -0.0719
+     "ev_yes": -0.0017,
+     "ev_no": -0.0683
     }
    ],
    "low_sample": false
@@ -887,46 +935,46 @@
    "player": "Alex Smalley",
    "player_id": "espn:9484",
    "tier": "top_20",
-   "expected_finish": 16.4,
+   "expected_finish": 16.5,
    "median_finish": 17,
-   "finish_p25": 10,
+   "finish_p25": 11,
    "finish_p75": 23,
    "p_complete": 1.0,
-   "p_win": 0.0074,
+   "p_win": 0.007,
    "ladder": {
-    "1": 0.0074,
-    "5": 0.091,
-    "10": 0.2618,
-    "20": 0.6875,
+    "1": 0.007,
+    "5": 0.0896,
+    "10": 0.2568,
+    "20": 0.683,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-ASMA",
-     "model_probability": 0.091,
-     "yes_bid": 7.0,
-     "yes_ask": 11.0,
-     "ev_yes": -0.029,
-     "ev_no": -0.031
+     "model_probability": 0.0896,
+     "yes_bid": 4.0,
+     "yes_ask": 15.0,
+     "ev_yes": -0.0704,
+     "ev_no": -0.0596
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-ASMA",
-     "model_probability": 0.2618,
-     "yes_bid": 23.0,
-     "yes_ask": 29.0,
-     "ev_yes": -0.0482,
-     "ev_no": -0.0518
+     "model_probability": 0.2568,
+     "yes_bid": 18.0,
+     "yes_ask": 32.0,
+     "ev_yes": -0.0832,
+     "ev_no": -0.0968
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-ASMA",
-     "model_probability": 0.6875,
-     "yes_bid": 66.0,
-     "yes_ask": 72.0,
-     "ev_yes": -0.0525,
-     "ev_no": -0.0475
+     "model_probability": 0.683,
+     "yes_bid": 64.0,
+     "yes_ask": 74.0,
+     "ev_yes": -0.077,
+     "ev_no": -0.063
     }
    ],
    "low_sample": false
@@ -935,17 +983,17 @@
    "player": "J.J. Spaun",
    "player_id": "espn:10166",
    "tier": "top_20",
-   "expected_finish": 17.0,
+   "expected_finish": 17.1,
    "median_finish": 18,
    "finish_p25": 9,
-   "finish_p75": 25,
+   "finish_p75": 26,
    "p_complete": 1.0,
-   "p_win": 0.0321,
+   "p_win": 0.0323,
    "ladder": {
-    "1": 0.0297,
-    "5": 0.1589,
-    "10": 0.3055,
-    "20": 0.6044,
+    "1": 0.0298,
+    "5": 0.1584,
+    "10": 0.304,
+    "20": 0.6003,
     "30": 1.0
    },
    "markets": [],
@@ -955,46 +1003,46 @@
    "player": "Rory McIlroy",
    "player_id": "espn:3470",
    "tier": "top_20",
-   "expected_finish": 17.1,
+   "expected_finish": 17.2,
    "median_finish": 18,
    "finish_p25": 11,
    "finish_p75": 23,
    "p_complete": 1.0,
-   "p_win": 0.0063,
+   "p_win": 0.0053,
    "ladder": {
-    "1": 0.0062,
-    "5": 0.0776,
-    "10": 0.2287,
-    "20": 0.6481,
+    "1": 0.0057,
+    "5": 0.0764,
+    "10": 0.2253,
+    "20": 0.6457,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-RMCI",
-     "model_probability": 0.0776,
-     "yes_bid": 4.0,
-     "yes_ask": 12.0,
-     "ev_yes": -0.0524,
-     "ev_no": -0.0476
+     "model_probability": 0.0764,
+     "yes_bid": 8.0,
+     "yes_ask": 17.0,
+     "ev_yes": -0.1036,
+     "ev_no": -0.0064
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-RMCI",
-     "model_probability": 0.2287,
-     "yes_bid": 22.0,
-     "yes_ask": 33.0,
-     "ev_yes": -0.1213,
-     "ev_no": -0.0287
+     "model_probability": 0.2253,
+     "yes_bid": 24.0,
+     "yes_ask": 35.0,
+     "ev_yes": -0.1447,
+     "ev_no": -0.0053
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-RMCI",
-     "model_probability": 0.6481,
-     "yes_bid": 68.0,
-     "yes_ask": 71.0,
-     "ev_yes": -0.0819,
-     "ev_no": 0.0119
+     "model_probability": 0.6457,
+     "yes_bid": 67.0,
+     "yes_ask": 78.0,
+     "ev_yes": -0.1543,
+     "ev_no": 0.0043
     }
    ],
    "low_sample": false
@@ -1008,41 +1056,41 @@
    "finish_p25": 12,
    "finish_p75": 24,
    "p_complete": 1.0,
-   "p_win": 0.0049,
+   "p_win": 0.0056,
    "ladder": {
-    "1": 0.0048,
-    "5": 0.0675,
-    "10": 0.2193,
-    "20": 0.6358,
+    "1": 0.0061,
+    "5": 0.0766,
+    "10": 0.2164,
+    "20": 0.6316,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-MLEE",
-     "model_probability": 0.0675,
-     "yes_bid": 7.0,
+     "model_probability": 0.0766,
+     "yes_bid": 6.0,
      "yes_ask": 11.0,
-     "ev_yes": -0.0525,
-     "ev_no": -0.0075
+     "ev_yes": -0.0434,
+     "ev_no": -0.0266
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-MLEE",
-     "model_probability": 0.2193,
-     "yes_bid": 19.0,
-     "yes_ask": 30.0,
-     "ev_yes": -0.1007,
-     "ev_no": -0.0493
+     "model_probability": 0.2164,
+     "yes_bid": 27.0,
+     "yes_ask": 31.0,
+     "ev_yes": -0.1136,
+     "ev_no": 0.0336
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-MLEE",
-     "model_probability": 0.6358,
+     "model_probability": 0.6316,
      "yes_bid": 68.0,
      "yes_ask": 74.0,
-     "ev_yes": -0.1242,
-     "ev_no": 0.0242
+     "ev_yes": -0.1284,
+     "ev_no": 0.0284
     }
    ],
    "low_sample": false
@@ -1051,94 +1099,46 @@
    "player": "Wyndham Clark",
    "player_id": "espn:11119",
    "tier": "top_20",
-   "expected_finish": 17.5,
+   "expected_finish": 17.6,
    "median_finish": 18,
    "finish_p25": 12,
    "finish_p75": 24,
    "p_complete": 1.0,
-   "p_win": 0.0048,
+   "p_win": 0.0054,
    "ladder": {
-    "1": 0.0048,
-    "5": 0.0719,
-    "10": 0.2112,
-    "20": 0.6315,
+    "1": 0.0054,
+    "5": 0.0707,
+    "10": 0.2105,
+    "20": 0.6217,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-WCLA",
-     "model_probability": 0.0719,
+     "model_probability": 0.0707,
      "yes_bid": 6.0,
-     "yes_ask": 7.0,
-     "ev_yes": -0.0081,
-     "ev_no": -0.0219
+     "yes_ask": 11.0,
+     "ev_yes": -0.0493,
+     "ev_no": -0.0207
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-WCLA",
-     "model_probability": 0.2112,
-     "yes_bid": 15.0,
+     "model_probability": 0.2105,
+     "yes_bid": 18.0,
      "yes_ask": 23.0,
-     "ev_yes": -0.0388,
-     "ev_no": -0.0712
+     "ev_yes": -0.0395,
+     "ev_no": -0.0505
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-WCLA",
-     "model_probability": 0.6315,
-     "yes_bid": 53.0,
-     "yes_ask": 73.0,
-     "ev_yes": -0.1185,
-     "ev_no": -0.1215
-    }
-   ],
-   "low_sample": false
-  },
-  {
-   "player": "Patrick Cantlay",
-   "player_id": "espn:6007",
-   "tier": "top_20",
-   "expected_finish": 17.6,
-   "median_finish": 18,
-   "finish_p25": 12,
-   "finish_p75": 24,
-   "p_complete": 1.0,
-   "p_win": 0.0051,
-   "ladder": {
-    "1": 0.0052,
-    "5": 0.0684,
-    "10": 0.2083,
-    "20": 0.6285,
-    "30": 1.0
-   },
-   "markets": [
-    {
-     "threshold": 5,
-     "market_ticker": "KXPGATOP5-TOC26-PCAN",
-     "model_probability": 0.0684,
-     "yes_bid": 2.0,
-     "yes_ask": 5.0,
-     "ev_yes": 0.0084,
-     "ev_no": -0.0584
-    },
-    {
-     "threshold": 10,
-     "market_ticker": "KXPGATOP10-TOC26-PCAN",
-     "model_probability": 0.2083,
-     "yes_bid": 10.0,
-     "yes_ask": 23.0,
-     "ev_yes": -0.0417,
-     "ev_no": -0.1183
-    },
-    {
-     "threshold": 20,
-     "market_ticker": "KXPGATOP20-TOC26-PCAN",
-     "model_probability": 0.6285,
-     "yes_bid": 54.0,
-     "yes_ask": 64.0,
-     "ev_yes": -0.0315,
-     "ev_no": -0.1085
+     "model_probability": 0.6217,
+     "yes_bid": 56.0,
+     "yes_ask": 72.0,
+     "ev_yes": -0.1183,
+     "ev_no": -0.0817
     }
    ],
    "low_sample": false
@@ -1147,94 +1147,46 @@
    "player": "Si Woo Kim",
    "player_id": "espn:7081",
    "tier": "top_20",
-   "expected_finish": 17.9,
+   "expected_finish": 18.0,
    "median_finish": 19,
    "finish_p25": 12,
    "finish_p75": 24,
    "p_complete": 1.0,
-   "p_win": 0.0043,
+   "p_win": 0.0045,
    "ladder": {
     "1": 0.0044,
-    "5": 0.0636,
-    "10": 0.1965,
-    "20": 0.6102,
+    "5": 0.0626,
+    "10": 0.1941,
+    "20": 0.6033,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-WKIM",
-     "model_probability": 0.0636,
+     "model_probability": 0.0626,
      "yes_bid": 3.0,
-     "yes_ask": 6.0,
-     "ev_yes": -0.0064,
-     "ev_no": -0.0436
+     "yes_ask": 8.0,
+     "ev_yes": -0.0274,
+     "ev_no": -0.0426
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-WKIM",
-     "model_probability": 0.1965,
+     "model_probability": 0.1941,
      "yes_bid": 12.0,
      "yes_ask": 20.0,
-     "ev_yes": -0.0235,
-     "ev_no": -0.0865
+     "ev_yes": -0.0259,
+     "ev_no": -0.0841
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-WKIM",
-     "model_probability": 0.6102,
-     "yes_bid": 58.0,
-     "yes_ask": 70.0,
-     "ev_yes": -0.1098,
-     "ev_no": -0.0502
-    }
-   ],
-   "low_sample": false
-  },
-  {
-   "player": "Alex Fitzpatrick",
-   "player_id": "espn:4364865",
-   "tier": "top_30",
-   "expected_finish": 19.4,
-   "median_finish": 21,
-   "finish_p25": 14,
-   "finish_p75": 25,
-   "p_complete": 1.0,
-   "p_win": 0.0022,
-   "ladder": {
-    "1": 0.0023,
-    "5": 0.0396,
-    "10": 0.1387,
-    "20": 0.5142,
-    "30": 1.0
-   },
-   "markets": [
-    {
-     "threshold": 5,
-     "market_ticker": "KXPGATOP5-TOC26-AFIT",
-     "model_probability": 0.0396,
-     "yes_bid": 3.0,
-     "yes_ask": 6.0,
-     "ev_yes": -0.0304,
-     "ev_no": -0.0196
-    },
-    {
-     "threshold": 10,
-     "market_ticker": "KXPGATOP10-TOC26-AFIT",
-     "model_probability": 0.1387,
-     "yes_bid": 12.0,
-     "yes_ask": 19.0,
-     "ev_yes": -0.0713,
-     "ev_no": -0.0287
-    },
-    {
-     "threshold": 20,
-     "market_ticker": "KXPGATOP20-TOC26-AFIT",
-     "model_probability": 0.5142,
-     "yes_bid": 51.0,
-     "yes_ask": 61.0,
-     "ev_yes": -0.1158,
-     "ev_no": -0.0242
+     "model_probability": 0.6033,
+     "yes_bid": 56.0,
+     "yes_ask": 66.0,
+     "ev_yes": -0.0767,
+     "ev_no": -0.0633
     }
    ],
    "low_sample": false
@@ -1243,7 +1195,7 @@
    "player": "Xander Schauffele",
    "player_id": "espn:10140",
    "tier": "top_30",
-   "expected_finish": 19.8,
+   "expected_finish": 19.9,
    "median_finish": 21,
    "finish_p25": 15,
    "finish_p75": 26,
@@ -1251,38 +1203,38 @@
    "p_win": 0.0026,
    "ladder": {
     "1": 0.0025,
-    "5": 0.0379,
-    "10": 0.1273,
-    "20": 0.4914,
+    "5": 0.0378,
+    "10": 0.1262,
+    "20": 0.4859,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-XSCH",
-     "model_probability": 0.0379,
+     "model_probability": 0.0378,
      "yes_bid": 3.0,
      "yes_ask": 6.0,
-     "ev_yes": -0.0321,
-     "ev_no": -0.0179
+     "ev_yes": -0.0322,
+     "ev_no": -0.0178
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-XSCH",
-     "model_probability": 0.1273,
+     "model_probability": 0.1262,
      "yes_bid": 12.0,
-     "yes_ask": 20.0,
-     "ev_yes": -0.0927,
-     "ev_no": -0.0173
+     "yes_ask": 17.0,
+     "ev_yes": -0.0538,
+     "ev_no": -0.0162
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-XSCH",
-     "model_probability": 0.4914,
-     "yes_bid": 52.0,
-     "yes_ask": 65.0,
-     "ev_yes": -0.1786,
-     "ev_no": 0.0086
+     "model_probability": 0.4859,
+     "yes_bid": 49.0,
+     "yes_ask": 61.0,
+     "ev_yes": -0.1441,
+     "ev_no": -0.0159
     }
    ],
    "low_sample": false
@@ -1291,94 +1243,94 @@
    "player": "Hideki Matsuyama",
    "player_id": "espn:5860",
    "tier": "top_30",
-   "expected_finish": 20.2,
-   "median_finish": 21,
+   "expected_finish": 20.3,
+   "median_finish": 22,
    "finish_p25": 15,
    "finish_p75": 26,
    "p_complete": 1.0,
    "p_win": 0.0014,
    "ladder": {
     "1": 0.0014,
-    "5": 0.0303,
-    "10": 0.1125,
-    "20": 0.4699,
+    "5": 0.0299,
+    "10": 0.1123,
+    "20": 0.4658,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
      "market_ticker": "KXPGATOP5-TOC26-HMAT",
-     "model_probability": 0.0303,
+     "model_probability": 0.0299,
      "yes_bid": 0.0,
-     "yes_ask": 5.0,
-     "ev_yes": -0.0297,
-     "ev_no": -0.0303
+     "yes_ask": 4.0,
+     "ev_yes": -0.0201,
+     "ev_no": -0.0299
     },
     {
      "threshold": 10,
      "market_ticker": "KXPGATOP10-TOC26-HMAT",
-     "model_probability": 0.1125,
+     "model_probability": 0.1123,
      "yes_bid": 4.0,
-     "yes_ask": 13.0,
-     "ev_yes": -0.0275,
-     "ev_no": -0.0825
+     "yes_ask": 12.0,
+     "ev_yes": -0.0177,
+     "ev_no": -0.0823
     },
     {
      "threshold": 20,
      "market_ticker": "KXPGATOP20-TOC26-HMAT",
-     "model_probability": 0.4699,
-     "yes_bid": 45.0,
-     "yes_ask": 50.0,
-     "ev_yes": -0.0501,
-     "ev_no": -0.0399
+     "model_probability": 0.4658,
+     "yes_bid": 39.0,
+     "yes_ask": 49.0,
+     "ev_yes": -0.0442,
+     "ev_no": -0.0958
     }
    ],
    "low_sample": false
   },
   {
-   "player": "Kristoffer Reitan",
-   "player_id": "espn:4348470",
+   "player": "Alex Fitzpatrick",
+   "player_id": "espn:4364865",
    "tier": "top_30",
-   "expected_finish": 26.2,
-   "median_finish": 28,
-   "finish_p25": 25,
-   "finish_p75": 29,
+   "expected_finish": 21.3,
+   "median_finish": 23,
+   "finish_p25": 17,
+   "finish_p75": 27,
    "p_complete": 1.0,
-   "p_win": 0.0001,
+   "p_win": 0.0013,
    "ladder": {
-    "1": 0.0001,
-    "5": 0.0022,
-    "10": 0.0113,
-    "20": 0.1104,
+    "1": 0.0014,
+    "5": 0.0224,
+    "10": 0.0877,
+    "20": 0.4021,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
-     "market_ticker": "KXPGATOP5-TOC26-KREI",
-     "model_probability": 0.0022,
-     "yes_bid": 0.0,
-     "yes_ask": 2.0,
-     "ev_yes": -0.0278,
-     "ev_no": -0.0022
+     "market_ticker": "KXPGATOP5-TOC26-AFIT",
+     "model_probability": 0.0224,
+     "yes_bid": 3.0,
+     "yes_ask": 5.0,
+     "ev_yes": -0.0376,
+     "ev_no": -0.0024
     },
     {
      "threshold": 10,
-     "market_ticker": "KXPGATOP10-TOC26-KREI",
-     "model_probability": 0.0113,
-     "yes_bid": 0.0,
-     "yes_ask": 2.0,
-     "ev_yes": -0.0187,
-     "ev_no": -0.0113
+     "market_ticker": "KXPGATOP10-TOC26-AFIT",
+     "model_probability": 0.0877,
+     "yes_bid": 11.0,
+     "yes_ask": 14.0,
+     "ev_yes": -0.0623,
+     "ev_no": 0.0123
     },
     {
      "threshold": 20,
-     "market_ticker": "KXPGATOP20-TOC26-KREI",
-     "model_probability": 0.1104,
-     "yes_bid": 13.0,
-     "yes_ask": 16.0,
-     "ev_yes": -0.0596,
-     "ev_no": 0.0096
+     "market_ticker": "KXPGATOP20-TOC26-AFIT",
+     "model_probability": 0.4021,
+     "yes_bid": 45.0,
+     "yes_ask": 52.0,
+     "ev_yes": -0.1379,
+     "ev_no": 0.0279
     }
    ],
    "low_sample": false
@@ -1387,7 +1339,55 @@
    "player": "Robert MacIntyre",
    "player_id": "espn:11378",
    "tier": "top_30",
-   "expected_finish": 26.5,
+   "expected_finish": 24.2,
+   "median_finish": 26,
+   "finish_p25": 21,
+   "finish_p75": 29,
+   "p_complete": 1.0,
+   "p_win": 0.0003,
+   "ladder": {
+    "1": 0.0003,
+    "5": 0.0067,
+    "10": 0.0331,
+    "20": 0.2197,
+    "30": 1.0
+   },
+   "markets": [
+    {
+     "threshold": 5,
+     "market_ticker": "KXPGATOP5-TOC26-RMAC",
+     "model_probability": 0.0067,
+     "yes_bid": 0.0,
+     "yes_ask": 1.0,
+     "ev_yes": -0.0133,
+     "ev_no": -0.0067
+    },
+    {
+     "threshold": 10,
+     "market_ticker": "KXPGATOP10-TOC26-RMAC",
+     "model_probability": 0.0331,
+     "yes_bid": 1.0,
+     "yes_ask": 2.0,
+     "ev_yes": 0.0031,
+     "ev_no": -0.0331
+    },
+    {
+     "threshold": 20,
+     "market_ticker": "KXPGATOP20-TOC26-RMAC",
+     "model_probability": 0.2197,
+     "yes_bid": 3.0,
+     "yes_ask": 8.0,
+     "ev_yes": 0.1297,
+     "ev_no": -0.1997
+    }
+   ],
+   "low_sample": false
+  },
+  {
+   "player": "Kristoffer Reitan",
+   "player_id": "espn:4348470",
+   "tier": "top_30",
+   "expected_finish": 26.4,
    "median_finish": 28,
    "finish_p25": 25,
    "finish_p75": 30,
@@ -1395,38 +1395,38 @@
    "p_win": 0.0001,
    "ladder": {
     "1": 0.0001,
-    "5": 0.0015,
-    "10": 0.0079,
-    "20": 0.1018,
+    "5": 0.0018,
+    "10": 0.0098,
+    "20": 0.1098,
     "30": 1.0
    },
    "markets": [
     {
      "threshold": 5,
-     "market_ticker": "KXPGATOP5-TOC26-RMAC",
-     "model_probability": 0.0015,
+     "market_ticker": "KXPGATOP5-TOC26-KREI",
+     "model_probability": 0.0018,
      "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "ev_yes": -0.0185,
-     "ev_no": -0.0015
+     "yes_ask": 2.0,
+     "ev_yes": -0.0282,
+     "ev_no": -0.0018
     },
     {
      "threshold": 10,
-     "market_ticker": "KXPGATOP10-TOC26-RMAC",
-     "model_probability": 0.0079,
+     "market_ticker": "KXPGATOP10-TOC26-KREI",
+     "model_probability": 0.0098,
      "yes_bid": 0.0,
      "yes_ask": 2.0,
-     "ev_yes": -0.0221,
-     "ev_no": -0.0079
+     "ev_yes": -0.0202,
+     "ev_no": -0.0098
     },
     {
      "threshold": 20,
-     "market_ticker": "KXPGATOP20-TOC26-RMAC",
-     "model_probability": 0.1018,
-     "yes_bid": 2.0,
-     "yes_ask": 7.0,
-     "ev_yes": 0.0218,
-     "ev_no": -0.0918
+     "market_ticker": "KXPGATOP20-TOC26-KREI",
+     "model_probability": 0.1098,
+     "yes_bid": 4.0,
+     "yes_ask": 13.0,
+     "ev_yes": -0.0302,
+     "ev_no": -0.0798
     }
    ],
    "low_sample": false
